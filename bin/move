@@ -16,7 +16,7 @@ board = [
   " "
 ]
 
-puts "Welcome to Tic Tac Toe!"
+print "Welcome to Tic Tac Toe!"
 puts "Where would you like to move?"
 user_input = gets.strip
 
