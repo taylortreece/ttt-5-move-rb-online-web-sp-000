@@ -25,5 +25,6 @@ end
 def move(board, user_input, value = "X")
   input_to_index(user_input)
   board[user_input] = value
+  puts "Welcome to Tic Tac Toe!"
   return display_board(board)
 end
